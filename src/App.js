@@ -1,5 +1,5 @@
 import "./App.css";
-import Nav from "./component/Nav";
+import Navigation from "./component/Nav";
 import Home from "./component/Home";
 import About from "./component/About";
 import Project from "./component/Project";
@@ -10,7 +10,7 @@ import Tech from "./component/Tech";
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Navigation />
       <Home />
       <About />
       <Project />
