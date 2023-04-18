@@ -25,9 +25,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Delicious Meals <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-Delicious Meals is a website that allows you to search for recipes and get the ingredients and instructions to make them.
+....
 
 ## 🛠 Built With <a name="built-with"></a>
 
