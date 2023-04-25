@@ -10,7 +10,7 @@ const Home = () => {
     "https://docs.google.com/document/d/1CN-RO_emYm2Vq_cpWOMMfEM951NZSxcTY7N9L9LVpoc/export?format=pdf";
 
   return (
-    <Container className={classes.home}>
+    <Container className={classes.home} id="home">
       <Row>
         <Col className={classes.title}>
           <h1 className={classes.title}>Portfolio</h1>

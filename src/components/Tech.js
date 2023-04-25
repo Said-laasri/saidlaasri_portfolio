@@ -4,7 +4,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 
 const Tech = () => {
   return (
-    <CardGroup className="m-4">
+    <CardGroup className="m-4" id="tech">
       <Card className="m-3">
         <Card.Img variant="top" src="holder.js/100px160" />
         <Card.Body>

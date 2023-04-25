@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <Form className="m-5 p-4">
+    <Form className="m-5 p-4" id="contact">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Your Name:</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
