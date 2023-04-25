@@ -2,10 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
-import Arrowdown from "./UI/Arrowdown";
+import ArrowDown from "./UI/Arrowdown";
 import classes from "./Home.module.css";
 
 const Home = () => {
+  const resumeLink =
+    "https://docs.google.com/document/d/1CN-RO_emYm2Vq_cpWOMMfEM951NZSxcTY7N9L9LVpoc/export?format=pdf";
+
   return (
     <Container className={classes.home}>
       <Row>
@@ -16,7 +19,7 @@ const Home = () => {
 
       <Row className="">
         <Col className={classes.me}>
-          Hi! My Name is Said Laasri, i'm a full-stack developer. Pationate
+          Hi! My Name is Said Laasri, i'm a full-stack developer. Passionate
           about web development, i'm always looking for new challenges and new
           technologies to learn. I'm currently Job Hunting, so if you have any
           offers, please contact me.
@@ -49,10 +52,22 @@ const Home = () => {
             variant="outline-dark"
             className="mb-4"
             size="lg"
-            type="submit"
+            href={resumeLink}
+            download="Said_Laasri_Resume.pdf"
           >
             My Resume
-            <Arrowdown />
+            <ArrowDown />
+          </Button>
+          <hr />
+          <span>Or</span>
+          <hr />
+          <Button
+            variant="outline-dark"
+            className="mb-4"
+            size="lg"
+            type="submit"
+          >
+            Want to Connect?
           </Button>
         </Col>
       </Row>
