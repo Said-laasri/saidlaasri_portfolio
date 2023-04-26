@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
 import ArrowDown from "./UI/Arrowdown";
@@ -67,7 +68,7 @@ const Home = () => {
             size="lg"
             type="submit"
           >
-            Want to Connect?
+            <Nav.Link href="#contact"> Want to Connect?</Nav.Link>
           </Button>
         </Col>
       </Row>
