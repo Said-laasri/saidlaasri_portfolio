@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sction{
+  font-family: "Courier New", Courier, sans-serif;
+  font-size: 20px;
+}
+
+.section:hover {
+  text-shadow: #000 2px 2px 6px;
+}

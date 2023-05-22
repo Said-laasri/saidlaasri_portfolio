@@ -71,7 +71,7 @@ const ButtonTheme = (props) => {
   );
 
   return (
-    <button onClick={handleTheme}>{isDarkMode ? sunIcon : moonIcon}</button>
+    <button style={{fontSize: '8px'}} onClick={handleTheme}>{isDarkMode ? sunIcon : moonIcon}</button>
   );
 };
 export default ButtonTheme;

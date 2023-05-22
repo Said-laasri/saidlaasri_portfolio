@@ -14,7 +14,7 @@ const Home = () => {
     <Container className={classes.home} id="home">
       <Row>
         <Col className={classes.title}>
-          <h1 className={classes.title}>Portfolio</h1>
+          <h1 className="section text-center m-5 p-4 ">Portfolio</h1>
         </Col>
       </Row>
 
