@@ -12,9 +12,12 @@ code {
     monospace;
 }
 
-.sction{
-  font-family: "Courier New", Courier, sans-serif;
-  font-size: 20px;
+.section {
+  font-family: "monospace", Courier, sans-serif;
+  font-size: calc(40px + 0.390625vw);
+  font-weight: 600;
+  padding: 2rem;
+  margin: 1rem;
 }
 
 .section:hover {

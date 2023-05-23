@@ -8,10 +8,10 @@ import Col from "react-bootstrap/Col";
 const Contact = () => {
   return (
     <Container>
-      <h1 className="text-center mt-4 p-2">Contact Me</h1>
+      <h1 className="section text-center mt-4 p-2">Contact Me</h1>
       <Row>
         <Col>
-          <ListGroup className="m-5 p-4">
+          <ListGroup className="m-5 p-4" >
             <ListGroup.Item>+212636415773</ListGroup.Item>
             <hr />
             <ListGroup.Item>Laasrisaid34@gmail.com</ListGroup.Item>

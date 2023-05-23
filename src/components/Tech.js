@@ -4,8 +4,8 @@ import "./Tech.css";
 
 const Tech = () => {
   return (
-    <Container className="p-5">
-      <h1 className="section text-center m-5 p-4 ">Technologies</h1>
+    <Container>
+      <h1 className="section text-center mt-4 p-2">Technologies</h1>
       <div>
         <Badge className="badge" bg="light" text="dark">
           <svg

@@ -4,7 +4,7 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 const Project = () => {
   return (
     <Container id="project">
-      <h1 className="text-center mt-4 p-2">Projects</h1>
+      <h1 className="section text-center mt-4 p-2">Projects</h1>
 
       <CardGroup className="m-4" id="tech">
         <Card className="m-3">

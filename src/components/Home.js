@@ -11,19 +11,22 @@ const Home = () => {
     "https://docs.google.com/document/d/1CN-RO_emYm2Vq_cpWOMMfEM951NZSxcTY7N9L9LVpoc/export?format=pdf";
 
   return (
-    <Container className={classes.home} id="home">
+    <Container id="home">
       <Row>
-        <Col className={classes.title}>
-          <h1 className="section text-center m-5 p-4 ">Portfolio</h1>
+        <Col>
+          <h1 className="section text-center mt-4 p-2">Portfolio</h1>
         </Col>
       </Row>
 
       <Row className="">
         <Col className={classes.me}>
-          Hi! My Name is Said Laasri, i'm a full-stack developer. Passionate
-          about web development, i'm always looking for new challenges and new
-          technologies to learn. I'm currently Job Hunting, so if you have any
-          offers, please contact me.
+          Hi! I'm Said Laasri, a highly motivated full-stack developer.
+          My enthusiasm for web development knows no bounds, and I am constantly
+          driven to seek out fresh challenges and embrace new technologies.
+          Currently, I am actively exploring exciting opportunities on my
+          job-hunting journey. If you happen to come across any intriguing
+          prospects, I would greatly appreciate it if you could reach out to me.
+          Let's connect and embark on a rewarding journey together!
         </Col>
         <Col className={classes.mestck}>
           <Col>
