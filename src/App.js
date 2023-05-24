@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Testimonies from "./components/Testimonies";
 import Tech from "./components/Tech";
 import "./App.css";
+import Socials from "./components/Socials";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -43,11 +43,11 @@ function App() {
     <div className="App">
       <Navigation onChangeTheme={handleThemeToggle} />
       <Home />
-      <About />
       <Project />
       <Tech />
       <Testimonies />
       <Contact />
+      <Socials />
     </div>
   );
 }

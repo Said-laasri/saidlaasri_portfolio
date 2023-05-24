@@ -1,0 +1,1532 @@
+{
+  "meta": {
+    "view": {
+      "id": "8knb-zsb6",
+      "name": "DPR_Skateparks_001",
+      "assetType": "invalid_datatype",
+      "averageRating": 0,
+      "createdAt": 1385405162,
+      "displayType": "geoRows",
+      "downloadCount": 1814,
+      "hideFromCatalog": false,
+      "hideFromDataJson": false,
+      "indexUpdatedAt": 1536597046,
+      "newBackend": true,
+      "numberOfComments": 0,
+      "oid": 15699425,
+      "provenance": "official",
+      "publicationAppendEnabled": false,
+      "publicationGroup": 6258384,
+      "publicationStage": "published",
+      "tableId": 6258384,
+      "totalTimesRated": 0,
+      "viewCount": 16,
+      "viewLastModified": 1536597024,
+      "viewType": "tabular",
+      "approvals": [
+        {
+          "reviewableUid": "kjtf-e6kp",
+          "reviewedAt": 1385416546,
+          "reviewedAutomatically": true,
+          "state": "approved",
+          "submissionId": 1065604,
+          "submissionObject": "public_audience_request",
+          "submissionOutcome": "change_audience",
+          "submittedAt": 1385416546,
+          "workflowId": 2285,
+          "submissionDetails": {
+            "permissionType": "READ"
+          },
+          "submissionOutcomeApplication": {
+            "failureCount": 0,
+            "status": "success"
+          },
+          "submitter": {
+            "id": "5fuc-pqz2",
+            "displayName": "NYC OpenData"
+          }
+        }
+      ],
+      "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+      },
+      "columns": [
+        {
+          "id": -1,
+          "name": "sid",
+          "dataTypeName": "meta_data",
+          "fieldName": ":sid",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "id",
+          "dataTypeName": "meta_data",
+          "fieldName": ":id",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "position",
+          "dataTypeName": "meta_data",
+          "fieldName": ":position",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "created_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "created_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":created_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "updated_at",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_at",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "updated_meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":updated_meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": -1,
+          "name": "meta",
+          "dataTypeName": "meta_data",
+          "fieldName": ":meta",
+          "position": 0,
+          "renderTypeName": "meta_data",
+          "format": {},
+          "flags": ["hidden"]
+        },
+        {
+          "id": 234832178,
+          "name": "the_geom",
+          "dataTypeName": "multipolygon",
+          "fieldName": "the_geom",
+          "position": 1,
+          "renderTypeName": "multipolygon",
+          "tableColumnId": 33431415,
+          "format": {}
+        },
+        {
+          "id": 234832183,
+          "name": "SYSTEM",
+          "dataTypeName": "text",
+          "fieldName": "system",
+          "position": 2,
+          "renderTypeName": "text",
+          "tableColumnId": 33431420,
+          "cachedContents": {
+            "largest": "X348-SKATEPARK-01",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "M019-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "Q099-ZN06-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "X348-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "Q128-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "X034-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "M321-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "M071-21-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B018-ZN02-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "Q015-05-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "X002-ZN03-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "X183-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B058-ZN01-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "R046-07-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B057-06-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "Q004-ZN01-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B066-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B111A-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B380-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "B145-SKATEPARK-01",
+                "count": "1"
+              },
+              {
+                "item": "Q162J-SKATEPARK-01",
+                "count": "1"
+              }
+            ],
+            "smallest": "B018-ZN02-SKATEPARK-01",
+            "count": "20",
+            "cardinality": "20"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832187,
+          "name": "GISPROPNUM",
+          "dataTypeName": "text",
+          "fieldName": "gispropnum",
+          "position": 3,
+          "renderTypeName": "text",
+          "tableColumnId": 33431424,
+          "cachedContents": {
+            "largest": "X348",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "X002",
+                "count": "1"
+              },
+              {
+                "item": "B066",
+                "count": "1"
+              },
+              {
+                "item": "Q162J",
+                "count": "1"
+              },
+              {
+                "item": "M019",
+                "count": "1"
+              },
+              {
+                "item": "B380",
+                "count": "1"
+              },
+              {
+                "item": "Q015",
+                "count": "1"
+              },
+              {
+                "item": "Q128",
+                "count": "1"
+              },
+              {
+                "item": "Q099",
+                "count": "1"
+              },
+              {
+                "item": "B145",
+                "count": "1"
+              },
+              {
+                "item": "X183",
+                "count": "1"
+              },
+              {
+                "item": "R046",
+                "count": "1"
+              },
+              {
+                "item": "Q004",
+                "count": "1"
+              },
+              {
+                "item": "X034",
+                "count": "1"
+              },
+              {
+                "item": "M321",
+                "count": "1"
+              },
+              {
+                "item": "B111A",
+                "count": "1"
+              },
+              {
+                "item": "B058",
+                "count": "1"
+              },
+              {
+                "item": "X348",
+                "count": "1"
+              },
+              {
+                "item": "B057",
+                "count": "1"
+              },
+              {
+                "item": "B018",
+                "count": "1"
+              },
+              {
+                "item": "M071",
+                "count": "1"
+              }
+            ],
+            "smallest": "B018",
+            "count": "20",
+            "cardinality": "20"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832189,
+          "name": "NAME",
+          "dataTypeName": "text",
+          "fieldName": "name",
+          "position": 4,
+          "renderTypeName": "text",
+          "tableColumnId": 33431426,
+          "cachedContents": {
+            "largest": "Washington Park Skatepark",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Ben Soto Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Washington Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Astoria Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Flushing Meadows Maloof Skate Plaza",
+                "count": "1"
+              },
+              {
+                "item": "Bruckner Playground Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Riverside Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Robert Venable Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "12th & A/Open Road Park",
+                "count": "1"
+              },
+              {
+                "item": "Forest Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Far Rockaway Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Canarsie Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Marine Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Thomas Greene Skate Spot",
+                "count": "1"
+              },
+              {
+                "item": "River Avenue Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Bronx Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "London Planetree Playground",
+                "count": "1"
+              },
+              {
+                "item": "Coleman Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "McCarren Park Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Owl's Head Millenium Skatepark",
+                "count": "1"
+              },
+              {
+                "item": "Mullaly Skatepark",
+                "count": "1"
+              }
+            ],
+            "smallest": "12th & A/Open Road Park",
+            "count": "20",
+            "cardinality": "20"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832195,
+          "name": "BMX_PERMIT",
+          "dataTypeName": "text",
+          "fieldName": "bmx_permit",
+          "position": 5,
+          "renderTypeName": "text",
+          "tableColumnId": 33431432,
+          "cachedContents": {
+            "largest": "Y",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "",
+                "count": "8"
+              },
+              {
+                "item": "N",
+                "count": "6"
+              },
+              {
+                "item": "Y",
+                "count": "6"
+              }
+            ],
+            "smallest": "",
+            "count": "20",
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832197,
+          "name": "INLINE_SKA",
+          "dataTypeName": "text",
+          "fieldName": "inline_ska",
+          "position": 6,
+          "renderTypeName": "text",
+          "tableColumnId": 33431434,
+          "cachedContents": {
+            "largest": "Y",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "",
+                "count": "11"
+              },
+              {
+                "item": "Y",
+                "count": "8"
+              },
+              {
+                "item": "N",
+                "count": "1"
+              }
+            ],
+            "smallest": "",
+            "count": "20",
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832201,
+          "name": "SCOOTER_PE",
+          "dataTypeName": "text",
+          "fieldName": "scooter_pe",
+          "position": 7,
+          "renderTypeName": "text",
+          "tableColumnId": 33431438,
+          "cachedContents": {
+            "largest": "Y",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "",
+                "count": "13"
+              },
+              {
+                "item": "Y",
+                "count": "6"
+              },
+              {
+                "item": "N",
+                "count": "1"
+              }
+            ],
+            "smallest": "",
+            "count": "20",
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832205,
+          "name": "FEATURES_1",
+          "dataTypeName": "text",
+          "fieldName": "features_1",
+          "position": 8,
+          "renderTypeName": "text",
+          "tableColumnId": 33431442,
+          "cachedContents": {
+            "largest": "Quarter Pipe",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Funbox",
+                "count": "9"
+              },
+              {
+                "item": "Ledge",
+                "count": "5"
+              },
+              {
+                "item": "Quarter Pipe",
+                "count": "2"
+              },
+              {
+                "item": "Handrail",
+                "count": "2"
+              },
+              {
+                "item": "Bowl/Pool",
+                "count": "1"
+              },
+              {
+                "item": "Half-Pipe",
+                "count": "1"
+              }
+            ],
+            "smallest": "Bowl/Pool",
+            "count": "20",
+            "cardinality": "6"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832208,
+          "name": "FEATURES_2",
+          "dataTypeName": "text",
+          "fieldName": "features_2",
+          "position": 9,
+          "renderTypeName": "text",
+          "tableColumnId": 33431445,
+          "cachedContents": {
+            "largest": "Quarter Pipe",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Ledge",
+                "count": "6"
+              },
+              {
+                "item": "Quarter Pipe",
+                "count": "5"
+              },
+              {
+                "item": "Bank Ramp",
+                "count": "3"
+              },
+              {
+                "item": "Funbox",
+                "count": "3"
+              },
+              {
+                "item": "Handrail",
+                "count": "2"
+              },
+              {
+                "item": "Half-Pipe",
+                "count": "1"
+              }
+            ],
+            "smallest": "Bank Ramp",
+            "count": "20",
+            "cardinality": "6"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832210,
+          "name": "FEATURES_3",
+          "dataTypeName": "text",
+          "fieldName": "features_3",
+          "position": 10,
+          "renderTypeName": "text",
+          "tableColumnId": 33431447,
+          "cachedContents": {
+            "largest": "Quarter Pipe",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Bank Ramp",
+                "count": "8"
+              },
+              {
+                "item": "Quarter Pipe",
+                "count": "6"
+              },
+              {
+                "item": "Ledge",
+                "count": "3"
+              },
+              {
+                "item": "Handrail",
+                "count": "1"
+              },
+              {
+                "item": "Funbox",
+                "count": "1"
+              },
+              {
+                "item": "Bowl/Pool",
+                "count": "1"
+              }
+            ],
+            "smallest": "Bank Ramp",
+            "count": "20",
+            "cardinality": "6"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832213,
+          "name": "PARK_SURFA",
+          "dataTypeName": "text",
+          "fieldName": "park_surfa",
+          "position": 11,
+          "renderTypeName": "text",
+          "tableColumnId": 33431450,
+          "cachedContents": {
+            "largest": "Concrete",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Concrete",
+                "count": "16"
+              },
+              {
+                "item": "Asphalt",
+                "count": "3"
+              },
+              {
+                "item": "",
+                "count": "1"
+              }
+            ],
+            "smallest": "",
+            "count": "20",
+            "cardinality": "3"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832216,
+          "name": "FEATURE_SU",
+          "dataTypeName": "text",
+          "fieldName": "feature_su",
+          "position": 12,
+          "renderTypeName": "text",
+          "tableColumnId": 33431453,
+          "cachedContents": {
+            "largest": "Wood",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Concrete",
+                "count": "10"
+              },
+              {
+                "item": "Metal",
+                "count": "6"
+              },
+              {
+                "item": "Wood",
+                "count": "3"
+              },
+              {
+                "item": "",
+                "count": "1"
+              }
+            ],
+            "smallest": "",
+            "count": "20",
+            "cardinality": "4"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832218,
+          "name": "BOROUGH",
+          "dataTypeName": "text",
+          "fieldName": "borough",
+          "position": 13,
+          "renderTypeName": "text",
+          "tableColumnId": 33431455,
+          "cachedContents": {
+            "largest": "Staten Island",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "Brooklyn",
+                "count": "7"
+              },
+              {
+                "item": "Queens",
+                "count": "5"
+              },
+              {
+                "item": "Bronx",
+                "count": "4"
+              },
+              {
+                "item": "Manhattan",
+                "count": "3"
+              },
+              {
+                "item": "Staten Island",
+                "count": "1"
+              }
+            ],
+            "smallest": "Bronx",
+            "count": "20",
+            "cardinality": "5"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832219,
+          "name": "SHAPE_area",
+          "dataTypeName": "number",
+          "fieldName": "shape_area",
+          "position": 14,
+          "renderTypeName": "number",
+          "tableColumnId": 33431456,
+          "cachedContents": {
+            "largest": "41629.7456711",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "15219.3137901",
+                "count": "1"
+              },
+              {
+                "item": "16409.661301",
+                "count": "1"
+              },
+              {
+                "item": "14438.1578578",
+                "count": "1"
+              },
+              {
+                "item": "15166.9978513",
+                "count": "1"
+              },
+              {
+                "item": "16451.6858817",
+                "count": "1"
+              },
+              {
+                "item": "35531.6010893",
+                "count": "1"
+              },
+              {
+                "item": "14367.2910351",
+                "count": "1"
+              },
+              {
+                "item": "6196.32518315",
+                "count": "1"
+              },
+              {
+                "item": "11486.0021197",
+                "count": "1"
+              },
+              {
+                "item": "12232.5220966",
+                "count": "1"
+              },
+              {
+                "item": "18061.1967306",
+                "count": "1"
+              },
+              {
+                "item": "15975.2707656",
+                "count": "1"
+              },
+              {
+                "item": "9340.83231472",
+                "count": "1"
+              },
+              {
+                "item": "6121.92388496",
+                "count": "1"
+              },
+              {
+                "item": "7503.41002462",
+                "count": "1"
+              },
+              {
+                "item": "15666.7812022",
+                "count": "1"
+              },
+              {
+                "item": "4935.57417233",
+                "count": "1"
+              },
+              {
+                "item": "923.182873596",
+                "count": "1"
+              },
+              {
+                "item": "41629.7456711",
+                "count": "1"
+              },
+              {
+                "item": "17054.7502263",
+                "count": "1"
+              }
+            ],
+            "smallest": "923.182873596",
+            "count": "20",
+            "cardinality": "20"
+          },
+          "format": {}
+        },
+        {
+          "id": 234832220,
+          "name": "SHAPE_len",
+          "dataTypeName": "number",
+          "fieldName": "shape_len",
+          "position": 15,
+          "renderTypeName": "number",
+          "tableColumnId": 33431457,
+          "cachedContents": {
+            "largest": "1429.34286112",
+            "non_null": "20",
+            "null": "0",
+            "top": [
+              {
+                "item": "529.498909325",
+                "count": "1"
+              },
+              {
+                "item": "908.184963391",
+                "count": "1"
+              },
+              {
+                "item": "566.550375348",
+                "count": "1"
+              },
+              {
+                "item": "576.238606482",
+                "count": "1"
+              },
+              {
+                "item": "337.738978379",
+                "count": "1"
+              },
+              {
+                "item": "348.113932479",
+                "count": "1"
+              },
+              {
+                "item": "480.603473013",
+                "count": "1"
+              },
+              {
+                "item": "540.252202641",
+                "count": "1"
+              },
+              {
+                "item": "574.277922772",
+                "count": "1"
+              },
+              {
+                "item": "440.104768081",
+                "count": "1"
+              },
+              {
+                "item": "1429.34286112",
+                "count": "1"
+              },
+              {
+                "item": "516.472092278",
+                "count": "1"
+              },
+              {
+                "item": "487.017439567",
+                "count": "1"
+              },
+              {
+                "item": "143.722695103",
+                "count": "1"
+              },
+              {
+                "item": "319.055414623",
+                "count": "1"
+              },
+              {
+                "item": "448.622706539",
+                "count": "1"
+              },
+              {
+                "item": "541.573191012",
+                "count": "1"
+              },
+              {
+                "item": "879.598505452",
+                "count": "1"
+              },
+              {
+                "item": "497.52549638",
+                "count": "1"
+              },
+              {
+                "item": "283.919459927",
+                "count": "1"
+              }
+            ],
+            "smallest": "143.722695103",
+            "count": "20",
+            "cardinality": "20"
+          },
+          "format": {}
+        }
+      ],
+      "grants": [
+        {
+          "inherited": false,
+          "type": "viewer",
+          "flags": ["public"]
+        }
+      ],
+      "metadata": {
+        "geo": {
+          "parentUid": "kjtf-e6kp",
+          "isNbe": true
+        },
+        "custom_fields": {
+          "Update": {
+            "Date Made Public": "11/25/2013"
+          }
+        }
+      },
+      "owner": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData",
+        "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName": "NYC OpenData",
+        "type": "interactive",
+        "flags": ["acceptedEula", "mayBeStoriesCoOwner"]
+      },
+      "query": {},
+      "rights": ["read"],
+      "tableAuthor": {
+        "id": "5fuc-pqz2",
+        "displayName": "NYC OpenData",
+        "profileImageUrlLarge": "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName": "NYC OpenData",
+        "type": "interactive",
+        "flags": ["acceptedEula", "mayBeStoriesCoOwner"]
+      },
+      "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+      ]
+    }
+  },
+  "data": [
+    [
+      "row-tdva_52rw.kuuf",
+      "00000000-0000-0000-7FA7-C65D29548BCD",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.91996794995724 40.588848379685274, -73.91996219041039 40.58885629235341, -73.91995483241764 40.58886339336753, -73.91994606859664 40.58886949683679, -73.91993612836707 40.58887444298401, -73.91992527194493 40.5888781023285, -73.91991378353059 40.58888037907563, -73.9199019638688 40.588881213624475, -73.91988126684772 40.588881825932255, -73.91986094669114 40.58888488513245, -73.91984149808071 40.58889031675072, -73.91982339448106 40.58889798855772, -73.91980707661376 40.58890771378796, -73.919796683358 40.58891602161859, -73.919784636384 40.58892291021433, -73.91977126507811 40.58892819122813, -73.91975693503676 40.58893172026706, -73.91974203807018 40.58893340084064, -73.91975058272715 40.58897510285266, -73.91972659286603 40.58897517446579, -73.91970294990821 40.588972074719145, -73.91968036972415 40.58896589746802, -73.91965953600473 40.588956829749584, -73.91964107956014 40.58894514611947, -73.91962555921972 40.58893120033879, -73.91961344491156 40.58891541466253, -73.91960510343398 40.588898267054375, -73.91960078734971 40.588880276714605, -73.91960062733904 40.58886198835957, -73.91960462824342 40.588843955728564, -73.91965540161685 40.58885590426903, -73.9196595233962 40.58884462114616, -73.9196661138431 40.58883404099105, -73.9196749790592 40.588824475081935, -73.91968585822056 40.58881620485686, -73.91969843125152 40.58880947363355, -73.91971480538979 40.58879696167469, -73.91972817245686 40.58878252124365, -73.91973814842343 40.58876656720918, -73.91974444668605 40.58874955792502, -73.91974966217063 40.58873776633818, -73.91975735247323 40.5887267900467, -73.91976730780375 40.58871692848016, -73.91977925658334 40.58870845065872, -73.91979287285282 40.58870158785432, -73.91980778516489 40.58869652728173, -73.91982358671702 40.58869340699151, -73.9198484028128 40.58869379135626, -73.91987277761244 40.58869736400993, -73.91989601142174 40.588704022397195, -73.9199174372989 40.5887135753848, -73.91993644019932 40.58872574874798, -73.91995247463066 40.588740193042355, -73.9199650803116 40.58875649363451, -73.91997389538462 40.588774182604574, -73.91997866680359 40.588792752177895, -73.91997925759797 40.58881166930098, -73.91997565080506 40.58883039094332, -73.91996794995724 40.588848379685274)))",
+      "B057-06-SKATEPARK-01",
+      "B057",
+      "Marine Park Skatepark",
+      "",
+      "",
+      "",
+      "Funbox",
+      "Quarter Pipe",
+      "Bank Ramp",
+      "Concrete",
+      "Wood",
+      "Brooklyn",
+      "6121.92388496",
+      "337.738978379"
+    ],
+    [
+      "row-yi3q_imt4.heb4",
+      "00000000-0000-0000-CC9E-A29AFC04EEBF",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.87144701429952 40.86716866899172, -73.87140901906763 40.8671782496313, -73.87136943968923 40.86718282869369, -73.87132940996344 40.86718227500611, -73.87129007659043 40.86717660442964, -73.87125256632206 40.867165979404795, -73.87121795368388 40.86715070429814, -73.87118723019366 40.86713121668317, -73.8711612759577 40.86710807480525, -73.87114083445928 40.867081941589696, -73.8711264912609 40.867053565651304, -73.87111865723082 40.86702375984914, -73.8711175567741 40.86699337800115, -73.87112322140524 40.86696329042553, -73.87113548884652 40.866934359009676, -73.8711540076775 40.8669074125205, -73.87117824740274 40.866883222863954, -73.87120751364895 40.86686248297337, -73.87126963642342 40.866916629230424, -73.87132507062582 40.86697480964453, -73.87137336406282 40.86703654963956, -73.87141412278474 40.86710134560258, -73.87144701429952 40.86716866899172)))",
+      "X002-ZN03-SKATEPARK-01",
+      "X002",
+      "Bronx Park Skatepark",
+      "",
+      "",
+      "",
+      "Quarter Pipe",
+      "Funbox",
+      "Bank Ramp",
+      "Concrete",
+      "Metal",
+      "Bronx",
+      "6196.32518315",
+      "319.055414623"
+    ],
+    [
+      "row-9e47.d7qy-i4ze",
+      "00000000-0000-0000-D00D-2D3CDC2269F6",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.82910897363057 40.82693224179193, -73.8288339398438 40.826853804930884, -73.82891353999702 40.8266978642285, -73.82918700367226 40.82677629857687, -73.82910897363057 40.82693224179193)))",
+      "X183-SKATEPARK-01",
+      "X183",
+      "Bruckner Playground Skatepark",
+      "",
+      "",
+      "",
+      "Funbox",
+      "Quarter Pipe",
+      "Bank Ramp",
+      "Concrete",
+      "Concrete",
+      "Bronx",
+      "4935.57417233",
+      "283.919459927"
+    ],
+    [
+      "row-9zv7_cy54-5724",
+      "00000000-0000-0000-B8CF-8B5B7DD0B4F3",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.92460034554938 40.8309531358081, -73.92460924843257 40.83095787566764, -73.92461707860063 40.83096360472623, -73.92462364747158 40.83097018500527, -73.9246287968404 40.830977458025366, -73.92463240268918 40.830985248623094, -73.92463437817408 40.830993369169605, -73.92463467571686 40.83100162408949, -73.9246332881509 40.83100981457104, -73.92463024889376 40.831017743354394, -73.9245021641136 40.83123040240045, -73.92451972273616 40.831236132036416, -73.9243977809988 40.831443335279275, -73.92409550735162 40.831344498320085, -73.92433873388082 40.830923598430026, -73.92434379284954 40.83091599885613, -73.92435049355336 40.83090917133278, -73.92435863723477 40.83090331837877, -73.92436798233473 40.83089861360504, -73.92437825165777 40.830895196564995, -73.92438914059419 40.83089316861521, -73.92440032615538 40.830892589908935, -73.92441147655425 40.83089347761177, -73.92442226104676 40.83089580539258, -73.92460034554938 40.8309531358081)))",
+      "X034-SKATEPARK-01",
+      "X034",
+      "Mullaly Skatepark",
+      "Y",
+      "",
+      "",
+      "Funbox",
+      "Half-Pipe",
+      "Quarter Pipe",
+      "Concrete",
+      "Wood",
+      "Bronx",
+      "16409.661301",
+      "540.252202641"
+    ],
+    [
+      "row-dpdu.kvbc_nd9s",
+      "00000000-0000-0000-FE50-D013BA3FAAB9",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.92708768919569 40.825602772700094, -73.92675190969979 40.82548593940305, -73.92688575754073 40.82527445286478, -73.92702615242801 40.825097993290925, -73.92734746084443 40.825167124623654, -73.92729897986536 40.82524842864938, -73.92708768919569 40.825602772700094)))",
+      "X348-SKATEPARK-01",
+      "X348",
+      "River Avenue Skatepark",
+      "Y",
+      "Y",
+      "Y",
+      "Funbox",
+      "Handrail",
+      "Ledge",
+      "Concrete",
+      "Concrete",
+      "Bronx",
+      "16451.6858817",
+      "529.498909325"
+    ],
+    [
+      "row-hxeb_wktg-uyia",
+      "00000000-0000-0000-B1A5-06510CD761B5",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-74.03034924624416 40.640956882783044, -74.03035094762197 40.64094744051994, -74.03035053818563 40.64093791483151, -74.03034802962084 40.64092857756895, -74.03034349351974 40.64091969520599, -74.03033705933763 40.64091152123394, -74.03032891069847 40.64090428892745, -74.03031928015437 40.64089820468716, -74.0303084425489 40.64089344214943, -74.0302967071733 40.640890137230784, -74.03028440893992 40.64088838424927, -74.0302718988241 40.64088823323269, -74.03022347601947 40.640888248671175, -74.03022195228739 40.64084928093493, -74.03029389084837 40.64084687923411, -74.03030275575932 40.64083901693144, -74.03031317313977 40.64083235019045, -74.03032486873717 40.64082705452246, -74.0303375346483 40.64082326934337, -74.0303508374253 40.64082109430326, -74.03036442685406 40.640820586663054, -74.03037794517407 40.64082175978712, -74.03039103649675 40.640824582791346, -74.0304033561748 40.64082898135619, -74.0306948177141 40.64089425545509, -74.03073696810037 40.64089203162246, -74.03074728471634 40.64088515752875, -74.03075895531404 40.64087968226666, -74.0307716565245 40.64087575754456, -74.03078503642278 40.640873492108604, -74.03079872427904 40.64087294872939, -74.03081234083058 40.64087414246284, -74.03097500368102 40.640909837640365, -74.03097945995518 40.64091217354614, -74.03098338065334 40.64091501252773, -74.03098666890328 40.64091828443993, -74.03098924345917 40.640921908440625, -74.03099104070903 40.640925794988455, -74.03099201624644 40.640929848054924, -74.0309921459678 40.64093396749728, -74.03099142666778 40.64093805153275, -74.03098987611864 40.64094199925327, -74.03091568222169 40.64114156421287, -74.0309120582775 40.64114538903438, -74.03090765505414 40.64114870558327, -74.0309025934125 40.641151422825914, -74.03089701228603 40.64115346617861, -74.03089106486712 40.641154779554775, -74.03088491440239 40.641155326904446, -74.0308787297117 40.64115509320381, -74.03087268055435 40.641154084867566, -74.03031977829927 40.64102973979993, -74.03034924624416 40.640956882783044)))",
+      "B066-SKATEPARK-01",
+      "B066",
+      "Owl's Head Millenium Skatepark",
+      "Y",
+      "",
+      "",
+      "Bowl/Pool",
+      "Funbox",
+      "Quarter Pipe",
+      "Concrete",
+      "Concrete",
+      "Brooklyn",
+      "15166.9978513",
+      "576.238606482"
+    ],
+    [
+      "row-vh7w_t55t~bdkh",
+      "00000000-0000-0000-D1F7-5E9BA940594D",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.94995887260467 40.719443295651075, -73.94979954546307 40.719458415191255, -73.9497744078244 40.71945727177135, -73.9497498454338 40.719453045933655, -73.94972650682115 40.719445849254654, -73.94970500820409 40.71943587175085, -73.9496859172174 40.719423376861904, -73.94966973792557 40.71940869449472, -73.94963444874526 40.7193787768841, -73.94959443193174 40.71935252870328, -73.9495503413213 40.71933037881902, -73.94950289730932 40.71931268913586, -73.94945287508004 40.719299748683426, -73.94940109194124 40.71929176889404, -73.94935756350095 40.719292654768, -73.94934955854767 40.719235742619155, -73.9493800921528 40.719233969436225, -73.94937892665916 40.71922265131457, -73.94941219951585 40.71922177263338, -73.94941336541085 40.719232569359626, -73.94951201103117 40.71922844239904, -73.94979695980552 40.71925358497193, -73.9498549535255 40.719266291810435, -73.94990964048898 40.71928571252075, -73.94995968736474 40.719311373604775, -73.95000387394803 40.719342649416575, -73.95004112291043 40.71937877741594, -73.95005359184161 40.71945443106367, -73.94999291493754 40.71945969071803, -73.94999137124378 40.719456109917274, -73.94998904315547 40.71945278365094, -73.94998599968172 40.71944981051591, -73.94998233103696 40.71944727864161, -73.94997814596688 40.71944526307756, -73.94997356852492 40.719443823568916, -73.94996873439518 40.719443002785475, -73.94996378687043 40.71944282505679, -73.94995887260467 40.719443295651075)))",
+      "B058-ZN01-SKATEPARK-01",
+      "B058",
+      "McCarren Park Skatepark",
+      "N",
+      "N",
+      "N",
+      "Handrail",
+      "Ledge",
+      "Bank Ramp",
+      "Concrete",
+      "Concrete",
+      "Brooklyn",
+      "9340.83231472",
+      "480.603473013"
+    ],
+    [
+      "row-7ckf~w2vn-m9c9",
+      "00000000-0000-0000-2C5F-D2FC1A37AE83",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.9853453516827 40.680264359965676, -73.98504023554197 40.68014495122261, -73.98516655982102 40.67995233314965, -73.98547402336801 40.680071384352814, -73.9853453516827 40.680264359965676)))",
+      "B145-SKATEPARK-01",
+      "B145",
+      "Thomas Greene Skate Spot",
+      "N",
+      "",
+      "",
+      "Ledge",
+      "Ledge",
+      "Bank Ramp",
+      "Asphalt",
+      "Concrete",
+      "Brooklyn",
+      "7503.41002462",
+      "348.113932479"
+    ],
+    [
+      "row-5saj~b8rd~5nde",
+      "00000000-0000-0000-690F-FF4F433707BA",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.84331016402747 40.74333554539047, -73.84326537033242 40.74333250333487, -73.84322195170374 40.74332359148853, -73.8431812274048 40.74330908063561, -73.84314443483042 40.743289411684486, -73.84311269190839 40.74326518227053, -73.8430869631313 40.74323712859668, -73.8430680302509 40.74320610306385, -73.8430564685255 40.74317304837054, -73.84305262924194 40.74313896886916, -73.84305662904319 40.74310490004887, -73.84306834638555 40.74307187707267, -73.84308742523328 40.74304090332483, -73.84311328587756 40.74301291992351, -73.84314514255182 40.74298877712596, -73.84318202730715 40.7429692084944, -73.84322281942305 40.74295480860759, -73.84326627945937 40.74294601499539, -73.84331108691528 40.742943094845, -73.8433558803506 40.74294613688296, -73.84339929875121 40.74295504867929, -73.84344002288124 40.74296955945583, -73.84347681536624 40.74298922831342, -73.8435085582892 40.74301345762797, -73.84353428715744 40.74304151120853, -73.84355322020821 40.74307253666544, -73.84356478216262 40.743105591309345, -73.84356862170623 40.7431396707938, -73.8435646221647 40.74317373963173, -73.84355290505042 40.74320676265792, -73.84353382637161 40.74323773648214, -73.84350796581668 40.74326571997701, -73.84347610914148 40.74328986287396, -73.84343922429501 40.74330943159882, -73.84339843200877 40.74332383156154, -73.84335497174342 40.74333262522315, -73.84331016402747 40.74333554539047)))",
+      "Q099-ZN06-SKATEPARK-01",
+      "Q099",
+      "Flushing Meadows Maloof Skate Plaza",
+      "N",
+      "Y",
+      "Y",
+      "Handrail",
+      "Ledge",
+      "Bank Ramp",
+      "Concrete",
+      "Concrete",
+      "Queens",
+      "15975.2707656",
+      "448.622706539"
+    ],
+    [
+      "row-65hv~yfkw_s876",
+      "00000000-0000-0000-E0FF-32FEF97E76EA",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.92532913103713 40.777544825086274, -73.92536814962712 40.77755190522743, -73.92540505960798 40.777563848749395, -73.92543882018025 40.7775803188653, -73.92546847935049 40.77760085114587, -73.92549320077568 40.777624866615135, -73.92551228734666 40.77765168807644, -73.92552520084598 40.77768055920788, -73.92553157712514 40.77771066588916, -73.92553123637403 40.77774115915836, -73.92552418819216 40.77777117915121, -73.92551063131909 40.77779987934795, -73.92549755191416 40.77781864164438, -73.92548168085037 40.77783611507755, -73.92546323512362 40.77785206074098, -73.925418472956 40.77788771316765, -73.92536768612196 40.77791834728177, -73.9253118397364 40.77794338093117, -73.92525199506672 40.77796233839081, -73.92518928936472 40.777974859403834, -73.92512491425417 40.77798070602773, -73.92509416695029 40.77796588724955, -73.92506700421966 40.777947460360096, -73.9250441510857 40.77792591720924, -73.9250262175385 40.77790183282547, -73.92501368225322 40.777875850067076, -73.92500687981378 40.77784866246285, -73.92500599178284 40.77782099570028, -73.92503737264266 40.777787659701524, -73.92496539128847 40.77769230905987, -73.92500295139702 40.77765550265734, -73.92504691503969 40.777623052079484, -73.92509641772659 40.7775955954199, -73.92515048605436 40.77757367257332, -73.92520805684643 40.77755771461966, -73.9252679980584 40.77754803534794, -73.92532913103713 40.777544825086274)))",
+      "Q004-ZN01-SKATEPARK-01",
+      "Q004",
+      "Astoria Park Skatepark",
+      "",
+      "",
+      "",
+      "Ledge",
+      "Bank Ramp",
+      "Ledge",
+      "Concrete",
+      "Concrete",
+      "Queens",
+      "18061.1967306",
+      "497.52549638"
+    ],
+    [
+      "row-uvni_9ris~psvq",
+      "00000000-0000-0000-C668-83EA1760A5A4",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.85587600637493 40.70175902642085, -73.85583026726404 40.70148353909741, -73.85634504956518 40.70143748303321, -73.85638578912145 40.70170915204117, -73.85587600637493 40.70175902642085)))",
+      "Q015-05-SKATEPARK-01",
+      "Q015",
+      "Forest Park Skatepark",
+      "N",
+      "Y",
+      "Y",
+      "Funbox",
+      "Bank Ramp",
+      "Quarter Pipe",
+      "Concrete",
+      "Wood",
+      "Queens",
+      "14367.2910351",
+      "487.017439567"
+    ],
+    [
+      "row-uumz~vd9h.yrbb",
+      "00000000-0000-0000-FC1B-9BC744715DE8",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.99253950952411 40.7112691964375, -73.99301372869687 40.711118824684725, -73.9930089119422 40.71111001109324, -73.99311454836112 40.71107418703626, -73.99343213892574 40.711011263491606, -73.99349109050351 40.71116987740742, -73.99310414808944 40.7112842944894, -73.99328069910439 40.711607382972076, -73.99284495387693 40.71164652983048, -73.99259952713803 40.711668577727785, -73.99253950952411 40.7112691964375)))",
+      "M019-SKATEPARK-01",
+      "M019",
+      "Coleman Skatepark",
+      "N",
+      "Y",
+      "",
+      "Funbox",
+      "Bank Ramp",
+      "Ledge",
+      "Concrete",
+      "Concrete",
+      "Manhattan",
+      "35531.6010893",
+      "908.184963391"
+    ],
+    [
+      "row-29hz_bicw_f36s",
+      "00000000-0000-0000-FC6B-2AE3317528EB",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.9831053240183 40.72910728231102, -73.98275180872916 40.729588794881394, -73.9825723774451 40.72951500540652, -73.98292289113746 40.729031046254974, -73.9831053240183 40.72910728231102)))",
+      "M321-SKATEPARK-01",
+      "M321",
+      "12th & A/Open Road Park",
+      "",
+      "",
+      "",
+      "Ledge",
+      "Ledge",
+      "Quarter Pipe",
+      "Asphalt",
+      "Metal",
+      "Manhattan",
+      "11486.0021197",
+      "516.472092278"
+    ],
+    [
+      "row-sgzs_jaq3~ze4d",
+      "00000000-0000-0000-B070-8EDC9268CDE9",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.97062187242562 40.80457854436705, -73.97106343260236 40.80475363012056, -73.97055891580844 40.805488287525456, -73.9701173509001 40.80531319985983, -73.97062187242562 40.80457854436705)))",
+      "M071-21-SKATEPARK-01",
+      "M071",
+      "Riverside Park Skatepark",
+      "N",
+      "Y",
+      "",
+      "Half-Pipe",
+      "Quarter Pipe",
+      "Funbox",
+      "Asphalt",
+      "Metal",
+      "Manhattan",
+      "41629.7456711",
+      "879.598505452"
+    ],
+    [
+      "row-qn5i.vrbd-9had",
+      "00000000-0000-0000-A6BB-F9F57B377BA3",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.90074590524065 40.62549478306946, -73.9007638427649 40.62548961659481, -73.90078263626577 40.62548671144381, -73.90080179813384 40.625486142992486, -73.90082083120222 40.625487925989624, -73.90083924164587 40.625492014174284, -73.90085655179386 40.62549830147585, -73.90087231252286 40.62550662476623, -73.90088611490982 40.625516768092254, -73.90089760084165 40.62552846827851, -73.90090647230679 40.62554142175577, -73.90091428216579 40.625540078026674, -73.9009222772508 40.625539752294266, -73.90093023064354 40.62554045380359, -73.900937916609 40.62554216264418, -73.90094511700231 40.62554483031539, -73.9009516274602 40.62554838110277, -73.90095726320119 40.625552714227, -73.90096186427017 40.62555770670429, -73.9009653000782 40.62556321683699, -73.90096747310902 40.62556908823506, -73.90096832168676 40.625575154255, -73.90096782172651 40.62558124272942, -73.90096598741792 40.625587180853515, -73.90096287082248 40.62559280008982, -73.90095856039603 40.625597940951515, -73.9009531784781 40.62560245752916, -73.9009468778197 40.62560622163189, -73.90093983724793 40.62560912642576, -73.90093259966518 40.62563727859252, -73.90091928665791 40.62566411258285, -73.90090027296927 40.62568887304194, -73.90087417024287 40.62571504034363, -73.90085301147144 40.625743682515775, -73.90083719455609 40.62577426093706, -73.90082438795896 40.62579801358296, -73.9008072346183 40.625820117587175, -73.90078609056815 40.62584011415457, -73.90076139467567 40.625857588232094, -73.90074066807217 40.625870224912134, -73.90072251138942 40.625884979443036, -73.90070729388209 40.62590155176156, -73.90069532503145 40.62591960483585, -73.90068684825134 40.62593877151963, -73.90068277515141 40.625951896660474, -73.90067592493617 40.62596433285257, -73.90066648408798 40.62597574154462, -73.90065470961467 40.625985812156735, -73.90065458085785 40.62599171085772, -73.90065316108019 40.625997510348334, -73.90065049015361 40.62600304775873, -73.90064664308679 40.62600816757915, -73.90064172791847 40.62601272602717, -73.9006358826836 40.62601659508562, -73.90062927153666 40.626019666097804, -73.90062208014176 40.62602185281896, -73.90061451045844 40.62602309383824, -73.90060677506997 40.6260233543035, -73.90059909121322 40.62602262689997, -73.90059167467787 40.626020932055646, -73.90058473374621 40.62601831736777, -73.90057846334389 40.626014856265904, -73.90057303956566 40.62601064594991, -73.90056861473 40.62600580466019, -73.90056531310154 40.626000468357105, -73.90056322740122 40.625994786902616, -73.90054744106342 40.62598618875736, -73.90053351988428 40.62597588853552, -73.90052177696879 40.625964117902896, -73.90051247642947 40.6259511415966, -73.90048627044365 40.6259096607548, -73.90047362006852 40.62589572315256, -73.9004582106048 40.625883503802974, -73.90044043763135 40.62587331638991, -73.90042075740025 40.62586542243506, -73.90039967512433 40.62586002458458, -73.90037773200791 40.6258572614069, -73.90035549135364 40.62585720383573, -73.90033352410224 40.62585985334891, -73.90031239417594 40.62586514193074, -73.90029264400228 40.62587293381777, -73.90027478058953 40.625883028984035, -73.90025926251145 40.62589516827593, -73.90024112035404 40.62585716858138, -73.90028687592756 40.62584382048448, -73.90033449327856 40.625835031149016, -73.90038319352391 40.62583094434315, -73.90038794666096 40.625829832785435, -73.90039238065211 40.625828118816216, -73.90039636510461 40.6258258528391, -73.90039978284564 40.62582310149089, -73.90040253336792 40.62581994568194, -73.90040453578554 40.62581647821677, -73.90040573121244 40.62581280106492, -73.90040608449425 40.62580902236231, -73.90040558524197 40.62580525323116, -73.90040424813749 40.62580160451222, -73.90040211250187 40.62579818350519, -73.9003992411389 40.62579509081335, -73.90039571848826 40.62579241738497, -73.90039164814233 40.62579024183889, -73.90036911241572 40.62577751760607, -73.90034969444291 40.62576209554263, -73.90033394356783 40.625744411948155, -73.90032230538895 40.62572496710191, -73.90031510915323 40.62570431110953, -73.90031255844183 40.625683028340205, -73.90031472541129 40.62566172089435, -73.90032154875252 40.62564099157002, -73.90033283542587 40.62562142680929, -73.90034826612269 40.62560358010773, -73.9003674042991 40.62558795635587, -73.9003897085263 40.62557499755579, -73.90041454780773 40.62556507031671, -73.90042302948646 40.62556088353076, -73.90043045971018 40.62555566415588, -73.9004366244335 40.62554956254885, -73.900441346067 40.625542754481245, -73.90044448859304 40.62553543607592, -73.90044596148415 40.625527818157146, -73.90044572231074 40.62552012017735, -73.90044377796335 40.62551256389522, -73.90044018445408 40.625505366987426, -73.90043504530303 40.62549873677797, -73.90042850855596 40.62549286426565, -73.90041056766873 40.62548140398098, -73.90039496476896 40.625468104864886, -73.90038202126179 40.62545324086796, -73.90037200377049 40.625437118175796, -73.90036511864447 40.62542006890178, -73.90036246301959 40.62541429317932, -73.90035862368677 40.625408917704405, -73.90035370045294 40.625404082217, -73.90034782130184 40.62539991241959, -73.90034113906697 40.62539651670943, -73.9003338274586 40.6253939833608, -73.90032607654796 40.62539237823019, -73.90031808782626 40.625391743044204, -73.9003100689668 40.62539209431505, -73.90030222842628 40.62539342291114, -73.90017272662963 40.625419757924035, -73.90015766329627 40.62538583574295, -73.90030978362812 40.625359834643795, -73.90032540788829 40.62536028691972, -73.90034074255051 40.62536261274122, -73.90035540308536 40.625366753786366, -73.90036902186752 40.62537260621501, -73.90038125739429 40.6253800232726, -73.90039180284899 40.625388818970116, -73.9004003937946 40.62539877274792, -73.90040681480478 40.62540963500641, -73.90041090486602 40.62542113336492, -73.90041758499426 40.62543526901394, -73.900427086195 40.62544843396309, -73.90043917433414 40.625460303791876, -73.9004535515278 40.62547058599489, -73.90046986348301 40.62547902719015, -73.90048770822843 40.625485419363066, -73.90050664602003 40.62548960499268, -73.9005262101778 40.625491480933334, -73.9005459185861 40.625491000956636, -73.9005546134286 40.62548582139062, -73.90056433585414 40.62548184130049, -73.90057480377952 40.62547917616319, -73.9005857134919 40.62547790330408, -73.90059674846076 40.625478059653474, -73.90060758852137 40.62547964067508, -73.90061791916402 40.625482600497705, -73.90062744065897 40.62548685324609, -73.90063587675266 40.62549227553245, -73.90065012610985 40.62549892777806, -73.90066566734033 40.62550360860428, -73.90068203501481 40.62550617782947, -73.90069873895348 40.62550655851037, -73.90071527890592 40.625504739246345, -73.90073115953284 40.62550077452078, -73.90074590524065 40.62549478306946), (-73.90088674309547 40.62557471140039, -73.90088022476311 40.6255781513622, -73.90087304114851 40.625580708977395, -73.90086539604917 40.62558231168698, -73.9008575063548 40.625582914022445, -73.90084959589424 40.62558249889567, -73.90084188908556 40.62558107808371, -73.90083460456913 40.62557869189471, -73.90082794900499 40.62557540802426, -73.90082211120986 40.62557131963506, -73.90081725680047 40.62556654271371, -73.900813523495 40.62556121278035, -73.90081101720617 40.62555548104387, -73.9008098090364 40.62554951011216, -73.90080993326082 40.625543469379025, -73.90081138635485 40.625537530218466, -73.90081412709428 40.625531861122774, -73.90081807772476 40.625526622922635, -73.90079873506141 40.62552256567592, -73.90077878113733 40.625520979317365, -73.90075875584684 40.62552190676912, -73.90073920101518 40.625525322937094, -73.90071270886234 40.62553022670547, -73.90068558714911 40.625532336711544, -73.90065834094182 40.62553161366239, -73.90063147762521 40.62552807102274, -73.90061471676685 40.625524352693986, -73.90061198238982 40.625523994624615, -73.90059855109688 40.625523570656654, -73.90058554833048 40.62552538457626, -73.90057359235013 40.62552935081787, -73.90056331990988 40.62553526051097, -73.90055532040732 40.62554273905224, -73.90054986524629 40.62555148952736, -73.90054716726358 40.62556116422517, -73.90054729966337 40.62557148707254, -73.90055343538329 40.62560376650462, -73.90055885538335 40.625615824823925, -73.90056642144218 40.625626750621926, -73.90057676992892 40.6256371813985, -73.9005897072972 40.625646699606754, -73.9006053055903 40.62565535765999, -73.90062360594544 40.625663177414836, -73.90063489923463 40.625668884481485, -73.90064553943074 40.625676563242735, -73.90066218547707 40.62569576096966, -73.9006713921785 40.62571519011451, -73.90067396963158 40.62573270758014, -73.90067000736198 40.62574896844046, -73.9006594401666 40.62576410345317, -73.90064205719108 40.62577830452072, -73.90061785564326 40.62579150434778, -73.9005867850809 40.62580373005617, -73.90054881367611 40.62581499362693, -73.90053827174796 40.62582008368646, -73.90052897377663 40.62582642688423, -73.90052117360759 40.62583385004382, -73.90051508419478 40.62584215050451, -73.90051087178682 40.62585110165425, -73.9005086513881 40.62586045911635, -73.90050848361888 40.62586996742118, -73.90051037306038 40.62587936698083, -73.90051426812943 40.62588840117615, -73.90052006248676 40.6258968233628, -73.9005453291085 40.62593973341085, -73.9005483547902 40.62594624410652, -73.90055278051636 40.62595227178679, -73.90055847907313 40.62595764319038, -73.90056528665991 40.62596220392029, -73.90057300759783 40.62596582288161, -73.90058141995416 40.62596839604993, -73.90059028192186 40.62596984946136, -73.90059933877002 40.62597014133865, -73.90060833016601 40.62596926329196, -73.90061699765853 40.62596724056014, -73.90062509210681 40.62596413128518, -73.90063238084183 40.62596002484093, -73.90063865435432 40.62595503926415, -73.90064373231701 40.62594931786163, -73.90064746876793 40.625943025090855, -73.90064975630595 40.62593634183284, -73.90065052917797 40.62592946019281, -73.90064976516882 40.62592257797827, -73.90064748623985 40.62591589301319, -73.90064375789748 40.62590959745169, -73.90063868731045 40.6259038722547, -73.90063242022903 40.62589888198848, -73.90062513679571 40.625894770094256, -73.90061889496448 40.62589125605495, -73.90061352980777 40.625886983390764, -73.90060919809098 40.625882076945445, -73.90060602638307 40.62587668008137, -73.90060410735848 40.62587095049045, -73.90060349708916 40.6258650555866, -73.90060421340637 40.625859167613946, -73.90060623537953 40.62585345861412, -73.900609503928 40.625848095399206, -73.90061392354731 40.62584323467775, -73.9006193650998 40.62583901847584, -73.90062566958784 40.62583556998721, -73.90063265279971 40.62583298997365, -73.90064011069204 40.625831353820956, -73.90064782535177 40.625830709336014, -73.90065557136334 40.62583107535011, -73.90066312239519 40.62583244116865, -73.90067025781278 40.62583476688359, -73.90068834502286 40.62583659235903, -73.90070657494375 40.6258360235247, -73.90072440567478 40.62583307728969, -73.90074130718162 40.62582784123348, -73.90075677705228 40.62582047100245, -73.90077035543182 40.62581118568322, -73.90078163869198 40.6258002612899, -73.90079029142943 40.625788022559476, -73.90079605643581 40.62577483329842, -73.9008126614591 40.62573928549985, -73.9008363582985 40.625706153606124, -73.90086656382933 40.625676252902984, -73.9008789296118 40.625663912482146, -73.90088842628562 40.62565017566106, -73.90089478876683 40.62563542588295, -73.90089783945831 40.625620074866035, -73.90089749320688 40.62560455111095, -73.90089375967996 40.62558928793975, -73.90088674309547 40.62557471140039)))",
+      "B018-ZN02-SKATEPARK-01",
+      "B018",
+      "Canarsie Skatepark",
+      "",
+      "",
+      "",
+      "Ledge",
+      "Handrail",
+      "Quarter Pipe",
+      "Concrete",
+      "Concrete",
+      "Brooklyn",
+      "15219.3137901",
+      "1429.34286112"
+    ],
+    [
+      "row-cikc~2tjj_e2qt",
+      "00000000-0000-0000-201F-ADC252711976",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-74.08426458776971 40.57475950385479, -74.08362897332721 40.574444672963615, -74.08388515790496 40.574294206594786, -74.08425246352301 40.57447104132186, -74.084457229317 40.57464880945914, -74.08426458776971 40.57475950385479)))",
+      "R046-07-SKATEPARK-01",
+      "R046",
+      "Ben Soto Skatepark",
+      "Y",
+      "Y",
+      "Y",
+      "Funbox",
+      "Quarter Pipe",
+      "Bowl/Pool",
+      "Concrete",
+      "Metal",
+      "Staten Island",
+      "17054.7502263",
+      "574.277922772"
+    ],
+    [
+      "row-9dj9-he4h.xayc",
+      "00000000-0000-0000-E4EB-73B21ABFE83A",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.86567797161362 40.67475621572736, -73.86566585852026 40.674711170383056, -73.86586049459679 40.67468082855676, -73.86587260899891 40.67472587388213, -73.86567797161362 40.67475621572736)))",
+      "B380-SKATEPARK-01",
+      "B380",
+      "Robert Venable Skatepark",
+      "Y",
+      "",
+      "",
+      "Quarter Pipe",
+      "Ledge",
+      "Bank Ramp",
+      "Concrete",
+      "Metal",
+      "Brooklyn",
+      "923.182873596",
+      "143.722695103"
+    ],
+    [
+      "row-53qx_nvvs_p2mn",
+      "00000000-0000-0000-5DD0-D7B72BD91A9E",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.85326431513916 40.68642402140861, -73.85325024403556 40.686431652933095, -73.85323470204503 40.686437397500114, -73.85321812174337 40.686441095222605, -73.85320096460583 40.68644264318282, -73.85318370816269 40.68644199829678, -73.85316683270825 40.68643917851341, -73.85315080793268 40.68643426231505, -73.85313607984924 40.68642738653298, -73.85312305838032 40.686418742539004, -73.85311210594817 40.68640857091909, -73.85310352738774 40.686397154776984, -73.85309756146225 40.68638481185478, -73.85309313260943 40.68636406408585, -73.8530849213564 40.686343995065805, -73.85307309033645 40.686325002276526, -73.85305787387448 40.68630746188399, -73.85304874997064 40.686296757377704, -73.85304203273398 40.68628506642666, -73.85303790076937 40.68627269988426, -73.85303646394105 40.686259986567165, -73.85303776045161 40.68624726451233, -73.85304175582634 40.68623487198885, -73.85304834383007 40.68622313850365, -73.85305734929202 40.68621237604021, -73.85306853276357 40.68620287076327, -73.85308159688505 40.68619487540988, -73.85309619429235 40.68618860256943, -73.85311193685295 40.686184219031254, -73.85312840598607 40.68618184134968, -73.85314516379215 40.68618153274512, -73.85318455843776 40.686183351666884, -73.85322379371357 40.68618010052116, -73.85326175159157 40.68617187195094, -73.85329735044468 40.68615890043322, -73.85332957586881 40.686141555597345, -73.8533575095892 40.68612033169206, -73.8533704520181 40.68611171993853, -73.85338512242 40.6861048998807, -73.85340109751098 40.68610006829699, -73.8534179163634 40.68609736459246, -73.85343509370499 40.68609686677678, -73.85345213392006 40.68609858921337, -73.8534685453494 40.68610248220498, -73.85348385447595 40.68610843342758, -73.85349761958686 40.68611627117125, -73.85350944351829 40.686125769294414, -73.85351898511456 40.68613665374861, -73.85352596907165 40.686148610485596, -73.85353019388049 40.68616129451846, -73.85353487794782 40.68618711107628, -73.8535440371837 40.686212222742625, -73.8535575083954 40.686236182082155, -73.85357505155937 40.68625856219105, -73.85357999598146 40.68627020988608, -73.85358241648451 40.6862823111365, -73.85358225011286 40.686294551203446, -73.85357950119219 40.68630661173747, -73.85357424121729 40.68631817905836, -73.85356660699271 40.68632895231362, -73.8535567970747 40.686338651303416, -73.8535450666071 40.686347023768086, -73.85353172068538 40.68635385194938, -73.8535171064215 40.68635895825394, -73.85350160391586 40.68636220987255, -73.85348561637124 40.686363522234224, -73.85344497407135 40.68636174676002, -73.8534044828283 40.68636494897201, -73.85336518792192 40.68637304620523, -73.8533281037495 40.68638582942988, -73.85329418763959 40.68640296864728, -73.85326431513916 40.68642402140861)))",
+      "Q128-SKATEPARK-01",
+      "Q128",
+      "London Planetree Playground",
+      "Y",
+      "Y",
+      "Y",
+      "Funbox",
+      "Quarter Pipe",
+      "Handrail",
+      "Concrete",
+      "Metal",
+      "Queens",
+      "12232.5220966",
+      "440.104768081"
+    ],
+    [
+      "row-53gz.g9ec_hun8",
+      "00000000-0000-0000-0EBD-246D6BB5A492",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.74658656043006 40.59504286270388, -73.74659795004804 40.59502551372041, -73.74661303129145 40.59500988666444, -73.7466313680321 40.59499643344577, -73.74665242999896 40.59498554310996, -73.74667560811277 40.594977530588, -73.74670023209953 40.59497262758896, -73.74672558987352 40.59497097589958, -73.74675094812945 40.594972623284036, -73.74677557354805 40.59497752210267, -73.74679875400223 40.59498553068959, -73.74681981915028 40.594996417449536, -73.74683815982098 40.59500986755496, -73.74685324562961 40.59502549205024, -73.746864640316 40.59504283909972, -73.7468720143606 40.59506140705367, -73.74687515451394 40.59508065895541, -73.7468739699639 40.59510003806899, -73.74686849496213 40.595118983979255, -73.7468588878342 40.59513694879814, -73.7468454264012 40.59515341300891, -73.74682849994605 40.59516790048993, -73.74680859795616 40.59517999228345, -73.74678629596819 40.59518933871145, -73.74676223892435 40.59519566948801, -73.74670148820003 40.59520192873691, -73.74664154534632 40.59521171829046, -73.74664833483493 40.5952297284795, -73.74652067971907 40.59526280427012, -73.74651478898448 40.595245183282415, -73.7464491321415 40.59527018817933, -73.74638676062277 40.59529967802345, -73.74636411609791 40.59531278298832, -73.74633888061824 40.59532276579557, -73.74631178748601 40.59532933636055, -73.7462836239848 40.59533230375296, -73.74625520850195 40.595331581744986, -73.74622736674712 40.59532719131707, -73.74620090775801 40.59531926004818, -73.74617660039074 40.595308018408545, -73.7461551509777 40.5952937930624, -73.74613718280251 40.5952769973756, -73.7461232179885 40.59525811940354, -73.7461136623267 40.59523770770918, -73.7461087934846 40.595216355422274, -73.74610875293797 40.59519468300413, -73.74611354186035 40.595173320217896, -73.74612302108956 40.595152887828796, -73.74613691517186 40.59513397956578, -73.74615482036673 40.595117144868865, -73.74617621637903 40.59510287292367, -73.74620048147816 40.595091578446606, -73.74622691056419 40.59508358963414, -73.7462547356568 40.5950791386262, -73.74628314821098 40.595078354760716, -73.74631132261145 40.59508126081535, -73.74635157679135 40.59509047587611, -73.74639322934131 40.59509476125414, -73.74643524803211 40.59509401074959, -73.74647659156066 40.595088242961396, -73.74651623535607 40.59507760082632, -73.74655319697122 40.595062348076574, -73.74658656043006 40.59504286270388)))",
+      "Q162J-SKATEPARK-01",
+      "Q162J",
+      "Far Rockaway Skatepark",
+      "",
+      "Y",
+      "Y",
+      "Ledge",
+      "Funbox",
+      "Quarter Pipe",
+      "Concrete",
+      "Concrete",
+      "Queens",
+      "15666.7812022",
+      "566.550375348"
+    ],
+    [
+      "row-as9v~cken.indk",
+      "00000000-0000-0000-E904-B3F599670C61",
+      0,
+      1450725866,
+      null,
+      1450725866,
+      null,
+      "{ }",
+      "MULTIPOLYGON (((-73.98540356502563 40.67248343003934, -73.98554648693269 40.672315193124966, -73.98614518410209 40.67261003871665, -73.98600226307335 40.67277827636881, -73.98540356502563 40.67248343003934)))",
+      "B111A-SKATEPARK-01",
+      "B111A",
+      "Washington Park Skatepark",
+      "",
+      "",
+      "",
+      "Funbox",
+      "Ledge",
+      "Bank Ramp",
+      "",
+      "",
+      "Brooklyn",
+      "14438.1578578",
+      "541.573191012"
+    ]
+  ]
+}

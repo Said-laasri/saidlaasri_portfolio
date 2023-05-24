@@ -9,6 +9,7 @@ const Navigation = (props) => {
   const { onChangeTheme } = props;
   return (
     <Navbar
+      style={{ zIndex: "9999999" }}
       className={classes.nav}
       collapseOnSelect
       expand="lg"
@@ -22,11 +23,11 @@ const Navigation = (props) => {
       <Navbar.Collapse id="responsive-navbar-nav" className={classes.links}>
         <Nav className={classes.navLinks}>
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
           <Nav.Link href="#project">Project</Nav.Link>
           <Nav.Link href="#tech">Skills</Nav.Link>
           <Nav.Link href="#testemony">Testimonies</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
+          <Nav.Link href="#about">Socials</Nav.Link>
           <Nav.Link href="#resume">
             <BUttonTheme onChangeTheme={onChangeTheme} />
           </Nav.Link>
