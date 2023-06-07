@@ -14,14 +14,14 @@ const Home = () => {
     <Container id="home">
       <Row>
         <Col>
-          <h1 className="section text-center mt-4 p-2">Portfolio</h1>
+          <h1 className="section text-center mt-4 p-2">About me:</h1>
         </Col>
       </Row>
 
       <Row className="">
         <Col className={classes.me}>
-          Hi! I'm Said Laasri, a highly motivated full-stack developer.
-          My enthusiasm for web development knows no bounds, and I am constantly
+          Hi! I'm Said Laasri, a highly motivated full-stack developer. My
+          enthusiasm for web development knows no bounds, and I am constantly
           driven to seek out fresh challenges and embrace new technologies.
           Currently, I am actively exploring exciting opportunities on my
           job-hunting journey. If you happen to come across any intriguing
@@ -30,23 +30,23 @@ const Home = () => {
         </Col>
         <Col className={classes.mestck}>
           <Col>
-            <Badge bg="secondary">FrontEnd</Badge>
+            <Badge bg="success">FrontEnd</Badge>
           </Col>
 
           <Col>
-            <Badge bg="secondary">+</Badge>
+            <Badge bg="info">+</Badge>
           </Col>
 
           <Col>
-            <Badge bg="secondary">BackEnd</Badge>
+            <Badge bg="success">BackEnd</Badge>
           </Col>
 
           <Col>
-            <Badge bg="secondary">=</Badge>
+            <Badge bg="info">=</Badge>
           </Col>
 
           <Col>
-            <Badge bg="secondary">Full-stack</Badge>
+            <Badge bg="success">Full-stack</Badge>
           </Col>
         </Col>
       </Row>

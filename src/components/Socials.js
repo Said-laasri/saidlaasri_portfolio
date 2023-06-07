@@ -9,8 +9,8 @@ const Socials = () => {
       <Badge className="badge" bg="light" text="dark">
         <a href="https://twitter.com/saidlaasr" target="_blank">
           <svg
-            width="64px"
-            height="64px"
+            width="20px"
+            height="20px"
             viewBox="0 -4 48 48"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +55,8 @@ const Socials = () => {
       <Badge className="badge" bg="light" text="dark">
         <a href="https://github.com/Said-laasri" target="_blank">
           <svg
-            width="64px"
-            height="64px"
+            width="20px"
+            height="20px"
             viewBox="0 -0.5 48 48"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +101,8 @@ const Socials = () => {
       <Badge className="badge" bg="light" text="dark">
         <a href="https://www.linkedin.com/in/said-laasri/" target="_blank">
           <svg
-            width="64px"
-            height="64px"
+            width="20px"
+            height="20px"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -125,8 +125,8 @@ const Socials = () => {
       <Badge className="badge" bg="light" text="dark">
         <a href="mailto:laasrisaid34@gmail.com" target="_blank">
           <svg
-            width="64px"
-            height="64px"
+            width="20px"
+            height="20px"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -178,8 +178,8 @@ const Socials = () => {
       <Badge className="badge" bg="light" text="dark">
         <a href="https://web.facebook.com/said.la3sri" target="_black">
           <svg
-            width="64px"
-            height="64px"
+            width="20px"
+            height="20px"
             viewBox="0 0 32 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

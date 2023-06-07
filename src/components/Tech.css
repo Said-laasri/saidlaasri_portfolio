@@ -1,8 +1,24 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
 .badge:hover {
   background-color: #f5f5f5;
   color: #000;
+  border: 1px solid #000;
   cursor: pointer;
-  box-shadow: #000 6px 6px 10px;
+  animation: pulse 1s infinite;
 }
 
 .badge {
@@ -12,5 +28,4 @@
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 1rem;
-  box-shadow: #000 0px 0px 10px;
 }
