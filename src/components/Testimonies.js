@@ -123,6 +123,23 @@ const Testimonies = () => {
             get the job done. I can recommend him without reservation.
           </p>
         </SwiperSlide>
+        <SwiperSlide>
+          <h4>Dorian Urem</h4>
+          <h6>
+          Web Developer | JavaScript, React, Redux, Ruby, Ruby on Rails
+          </h6>
+          <img
+            src="https://media.licdn.com/dms/image/D4D35AQHhAQ-JjC2kNA/profile-framedphoto-shrink_800_800/0/1665268936908?e=1686837600&v=beta&t=cVPHB0Ig952LayzT6KnzyJDPrLw7nAaQkszOKi8qdJ4"
+            alt="green beans"
+          />
+          <p>
+            Said is a great guy, he is friendly, hardworking, eager to learn new
+            things and is willing to help others. This is my opinion of him from
+            knowing him for a year now and collaborating in Microverse and
+            outside of it. I would recommend him to any company because of his
+            traits.
+          </p>
+        </SwiperSlide>
       </Swiper>
     </Container>
   );

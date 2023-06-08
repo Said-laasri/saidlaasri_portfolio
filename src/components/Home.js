@@ -6,9 +6,6 @@ import ArrowDown from "./UI/Arrowdown";
 import classes from "./Home.module.css";
 
 const Home = () => {
-  const resumeLink =
-    "https://docs.google.com/document/d/1CN-RO_emYm2Vq_cpWOMMfEM951NZSxcTY7N9L9LVpoc/export?format=pdf";
-
   return (
     <Container id="home">
       <Row>
@@ -51,16 +48,15 @@ const Home = () => {
       </Row>
       <Row>
         <Col className="mt-5">
-          <button
-            variant="outline-dark"
-            class="mb-4 btn btn-outline-dark"
-            size="lg"
-            href={resumeLink}
+          <a
+            className="mb-4 btn btn-outline-dark"
+            href="https://docs.google.com/document/d/1CN-RO_emYm2Vq_cpWOMMfEM951NZSxcTY7N9L9LVpoc/export?format=pdf"
             download="Said_Laasri_Resume.pdf"
           >
             My Resume
             <ArrowDown />
-          </button>
+          </a>
+
           <hr />
           <span>Or</span>
           <hr />
