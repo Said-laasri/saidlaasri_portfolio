@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import BUttonTheme from "./UI/ButtonTheme";
+import ButtonTheme from "./UI/ButtonTheme";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./Navigation.module.css";
 
@@ -29,7 +29,7 @@ const Navigation = (props) => {
           <Nav.Link href="#contact">Contact</Nav.Link>
           <Nav.Link href="#about">Socials</Nav.Link>
           <Nav.Link href="#resume">
-            <BUttonTheme onChangeTheme={onChangeTheme} />
+            <ButtonTheme onChangeTheme={onChangeTheme} />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

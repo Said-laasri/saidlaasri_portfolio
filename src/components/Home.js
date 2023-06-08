@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
 import ArrowDown from "./UI/Arrowdown";
 import classes from "./Home.module.css";
@@ -52,27 +51,27 @@ const Home = () => {
       </Row>
       <Row>
         <Col className="mt-5">
-          <Button
+          <button
             variant="outline-dark"
-            className="mb-4"
+            class="mb-4 btn btn-outline-dark"
             size="lg"
             href={resumeLink}
             download="Said_Laasri_Resume.pdf"
           >
             My Resume
             <ArrowDown />
-          </Button>
+          </button>
           <hr />
           <span>Or</span>
           <hr />
-          <Button
+          <button
             variant="outline-dark"
-            className="mb-4"
+            class="mb-4 btn btn-outline-dark"
             size="lg"
             type="submit"
           >
             <Nav.Link href="#contact"> Want to Connect?</Nav.Link>
-          </Button>
+          </button>
         </Col>
       </Row>
     </Container>

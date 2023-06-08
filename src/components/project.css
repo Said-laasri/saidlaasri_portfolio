@@ -1,0 +1,13 @@
+.image-container {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .image-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-body {
+    height: 200px; /* Adjust the height value as needed */
+  }

@@ -5,8 +5,9 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Testimonies from "./components/Testimonies";
 import Tech from "./components/Tech";
-import "./App.css";
 import Socials from "./components/Socials";
+import Services from "./components/Services";
+import "./App.css";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -43,6 +44,7 @@ function App() {
     <div className="App">
       <Navigation onChangeTheme={handleThemeToggle} />
       <Home />
+      <Services />
       <Project />
       <Tech />
       <Testimonies />
