@@ -7,10 +7,19 @@ import Testimonies from "./components/Testimonies";
 import Tech from "./components/Tech";
 import Socials from "./components/Socials";
 import Services from "./components/Services";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 
-function App() {
+const App = () => {
   const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+    });
+  }, []);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -40,6 +49,10 @@ function App() {
     setTheme(theme === "light" ? "dark" : "light");
   }
 
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   return (
     <div className="App">
       <Navigation onChangeTheme={handleThemeToggle} />
@@ -50,8 +63,33 @@ function App() {
       <Testimonies />
       <Contact />
       <Socials />
+      <svg
+        data-aos="fade-left"
+        className="up"
+        onClick={scrollToTop}
+        fill="#000000"
+        width="30px"
+        height="30px"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="#000000"
+      >
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+        <g
+          id="SVGRepo_tracerCarrier"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></g>
+        <g id="SVGRepo_iconCarrier">
+          {" "}
+          <path
+            d="M10.157 9.95L8.036 7.828 5.914 9.95 4.5 8.536 8.036 5l3.535 3.536-1.414 1.414zM0 8c0-4.418 3.59-8 8-8 4.418 0 8 3.59 8 8 0 4.418-3.59 8-8 8-4.418 0-8-3.59-8-8zm2 0c0 3.307 2.686 6 6 6 3.307 0 6-2.686 6-6 0-3.307-2.686-6-6-6-3.307 0-6 2.686-6 6z"
+            fill-rule="evenodd"
+          ></path>{" "}
+        </g>
+      </svg>
     </div>
   );
-}
+};
 
 export default App;

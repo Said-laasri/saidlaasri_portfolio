@@ -8,14 +8,16 @@ import classes from "./Home.module.css";
 const Home = () => {
   return (
     <Container id="home">
-      <Row>
+      <Row data-aos="fade-right">
         <Col>
-          <h1 className="section text-center mt-4 p-2">About me:</h1>
+          <h1 className={`section text-center mt-4 p-2 ${classes.text}`}>
+            About me:
+          </h1>
         </Col>
       </Row>
 
       <Row className="">
-        <Col className={classes.me}>
+        <Col className={classes.me} data-aos="fade-right">
           Hi! I'm Said Laasri, a highly motivated full-stack developer. My
           enthusiasm for web development knows no bounds, and I am constantly
           driven to seek out fresh challenges and embrace new technologies.
@@ -24,7 +26,7 @@ const Home = () => {
           prospects, I would greatly appreciate it if you could reach out to me.
           Let's connect and embark on a rewarding journey together!
         </Col>
-        <Col className={classes.mestck}>
+        <Col className={classes.mestck} data-aos="fade-right">
           <Col>
             <Badge bg="success">FrontEnd</Badge>
           </Col>
@@ -46,7 +48,7 @@ const Home = () => {
           </Col>
         </Col>
       </Row>
-      <Row>
+      <Row data-aos="fade-down">
         <Col className="mt-5">
           <a
             className="mb-4 btn btn-outline-dark"

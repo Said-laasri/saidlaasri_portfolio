@@ -4,10 +4,10 @@ import Badge from "react-bootstrap/Badge";
 
 const Socials = () => {
   return (
-    <Container id="about">
+    <Container id="about" data-aos="fade-right">
       <h1 className="section text-center mt-4 p-2">Socials</h1>
       <Badge className="badge" bg="light" text="dark">
-        <a href="https://twitter.com/saidlaasr" target="_blank">
+        <a href="https://twitter.com/saidlaasr" target="_blank" rel="noreferrer">
           <svg
             width="20px"
             height="20px"
@@ -16,7 +16,7 @@ const Socials = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
               stroke-linecap="round"
@@ -29,7 +29,7 @@ const Socials = () => {
               <g
                 id="Icons"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
                 fill-rule="evenodd"
               >
@@ -53,7 +53,7 @@ const Socials = () => {
         </a>
       </Badge>{" "}
       <Badge className="badge" bg="light" text="dark">
-        <a href="https://github.com/Said-laasri" target="_blank">
+        <a href="https://github.com/Said-laasri" target="_blank" rel="noreferrer"> 
           <svg
             width="20px"
             height="20px"
@@ -62,7 +62,7 @@ const Socials = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="#000000"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
               stroke-linecap="round"
@@ -75,7 +75,7 @@ const Socials = () => {
               <g
                 id="Icons"
                 stroke="none"
-                stroke-width="1"
+                strokeWidth="1"
                 fill="none"
                 fill-rule="evenodd"
               >
@@ -99,7 +99,7 @@ const Socials = () => {
         </a>
       </Badge>
       <Badge className="badge" bg="light" text="dark">
-        <a href="https://www.linkedin.com/in/said-laasri/" target="_blank">
+        <a href="https://www.linkedin.com/in/said-laasri/" target="_blank" rel="noreferrer">
           <svg
             width="20px"
             height="20px"
@@ -107,7 +107,7 @@ const Socials = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
             <g
               id="SVGRepo_tracerCarrier"
               stroke-linecap="round"
@@ -123,7 +123,7 @@ const Socials = () => {
         </a>
       </Badge>
       <Badge className="badge" bg="light" text="dark">
-        <a href="mailto:laasrisaid34@gmail.com" target="_blank">
+        <a href="mailto:laasrisaid34@gmail.com" target="_blank" rel="noreferrer">
           <svg
             width="20px"
             height="20px"
@@ -176,7 +176,7 @@ const Socials = () => {
         </a>
       </Badge>
       <Badge className="badge" bg="light" text="dark">
-        <a href="https://web.facebook.com/said.la3sri" target="_black">
+        <a href="https://web.facebook.com/said.la3sri" target="_black" rel="noreferrer">
           <svg
             width="20px"
             height="20px"

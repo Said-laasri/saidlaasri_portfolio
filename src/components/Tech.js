@@ -5,8 +5,15 @@ import "./Tech.css";
 const Tech = () => {
   return (
     <Container>
-      <h1 className="section text-center mt-4 p-2">Technologies</h1>
-      <div>
+      <h1 className="section text-center mt-4 p-2" data-aos="fade-right">
+        Technologies
+      </h1>
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+      >
         <Badge className="badge" bg="light" text="dark">
           <svg
             width="64px"

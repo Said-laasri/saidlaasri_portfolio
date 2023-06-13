@@ -26,15 +26,21 @@ const Services = () => {
   ];
 
   return (
-    <Container id="services">
-      <h1 className="section text-center mt-4 p-2">Services</h1>
+    <Container id="services" data-aos="fade-right">
+      <h1 className="section text-center mt-4 p-2" data-aos="fade-right">
+        Services
+      </h1>
       <CardGroup className="m-4">
         <div className="row">
           {services.map((service, index) => (
             <div className="col-md-4" key={index}>
-              <Card className="m-3 bg-transparent">
+              <Card className="m-3 bg-transparent" data-aos="flip-left">
                 <div className="image-container">
-                <Card.Img variant="top" src={service.image}  style={{width: '100px'}}/>
+                  <Card.Img
+                    variant="top"
+                    src={service.image}
+                    style={{ width: "100px" }}
+                  />
                 </div>
                 <Card.Body className="card-body">
                   <Card.Title>{service.title}</Card.Title>
