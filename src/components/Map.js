@@ -1,8 +1,6 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import "./Map.css";
 import { icon } from "leaflet";
-import * as parkData from "./data/skateboard-parks.json";
-import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 
 const Map = () => {
@@ -32,7 +30,7 @@ const Map = () => {
   });
 
   return (
-    <Container>
+    <Container data-aos="fade-right">
       <h3>
         Location
         <span>

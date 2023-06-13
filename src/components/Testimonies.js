@@ -15,8 +15,11 @@ import { Container } from "react-bootstrap";
 const Testimonies = () => {
   return (
     <Container id="testemony">
-      <h1 className="section text-center mt-4 p-2">Testimonies</h1>
+      <h1 className="section text-center mt-4 p-2" data-aos="fade-right">
+        Testimonies
+      </h1>
       <Swiper
+        data-aos="zoom-in-up"
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -33,12 +36,11 @@ const Testimonies = () => {
         className="mySwiper"
       >
         <SwiperSlide style={{ height: "auto" }}>
-          <h4>Htet (Rex) Naing</h4>
-          <h6>Full Stack Developer | Mindful Mentor | Cheerful Team Player</h6>
           <img
             src="https://media.licdn.com/dms/image/D5603AQEL2JUM95rxqA/profile-displayphoto-shrink_200_200/0/1670864145164?e=1691625600&v=beta&t=Cz1rCxin8STHpYjkaJFMxIW7hB9VMpj-Mlbczxd1tRk"
             alt="green beans"
           />
+          <h4>Htet (Rex) Naing</h4>
           <p>
             Said is a fantastic software engineer, and his detail-oriented
             approach made him a pleasure to work with. We pair-programmed
@@ -51,17 +53,11 @@ const Testimonies = () => {
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <h4>Piesie (Omane Kwadwo) Yeboah</h4>
-          <h6>
-            Full-stack developer, JavaScript | React/Redux | Ruby | React Native
-            | PostgreSQL | Java ||| Biomedical EngineerFull-stack developer,
-            JavaScript | React/Redux | Ruby | React Native | PostgreSQL | Java
-            ||| Biomedical Engineer
-          </h6>
           <img
             src="https://media.licdn.com/dms/image/C4D03AQGE6WxKg7hwBQ/profile-displayphoto-shrink_200_200/0/1646069977132?e=1691625600&v=beta&t=J-NpI5-j1IZylOJTQbXM8iHO9sMYL47XeeMXEUTpY8U"
             alt="green beans"
           />
+          <h4>Piesie (Omane Kwadwo) Yeboah</h4>
           <p>
             I had the pleasure of working with Said at Microverse, and I was
             truly impressed. Said's attention to detail, advanced system
@@ -72,15 +68,11 @@ const Testimonies = () => {
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <h4>Nicholas (TechieEmma) Emmanuel</h4>
-          <h6>
-            Software Developer | ML Enthusiast | Typescript, React.JS, Redux,
-            Node.JS, Next.js, Python, JavaScript, MongoDB, Postgresql
-          </h6>
           <img
             src="https://lazy-coders.netlify.app/static/media/trainer8.3dffb89dfbea9d7201ce.png"
             alt="green beans"
           />
+          <h4>Nicholas (TechieEmma) Emmanuel</h4>
           <p>
             I worked with Said while we were students at Microverse. Said is
             detailed orientated and has advanced system engineering and
@@ -89,12 +81,11 @@ const Testimonies = () => {
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <h4>Abdelmejid Oumer Ali</h4>
-          <h6>Full-stack Developer | React & Redux | NodeJS | Ruby on Rails</h6>
           <img
             src="https://lazy-coders.netlify.app/static/media/trainer1.a23bb0f8ff7ec40a4916.png"
             alt="green beans"
           />
+          <h4>Abdelmejid Oumer Ali</h4>
           <p>
             Said is an exceptional developer, impressing me with his technical
             prowess and deep understanding of complex programming concepts. His
@@ -104,16 +95,11 @@ const Testimonies = () => {
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <h4>Elizabeth (Oyinlade) Ojesanmi</h4>
-          <h6>
-            Full-Stack Developer | Tech Writer| Developer Relations|
-            BroadcasterFull-Stack Developer | Tech Writer| Developer Relations|
-            Broadcaster
-          </h6>
           <img
             src="https://media.licdn.com/dms/image/D4D03AQF1lEIVN9dlnA/profile-displayphoto-shrink_200_200/0/1678826262966?e=1691625600&v=beta&t=TJrofTqVXkeJh28TTLHpiTK3C43--pL8gsnoMko5E_g"
             alt="green beans"
           />
+          <h4>Elizabeth (Oyinlade) Ojesanmi</h4>
           <p>
             Said is one of the brightest software developers I've ever met. I
             worked alongside him while working on a project at Microverse, and
@@ -124,20 +110,33 @@ const Testimonies = () => {
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <h4>Dorian Urem</h4>
-          <h6>
-          Web Developer | JavaScript, React, Redux, Ruby, Ruby on Rails
-          </h6>
           <img
-            src="https://media.licdn.com/dms/image/D4D35AQHhAQ-JjC2kNA/profile-framedphoto-shrink_800_800/0/1665268936908?e=1686837600&v=beta&t=cVPHB0Ig952LayzT6KnzyJDPrLw7nAaQkszOKi8qdJ4"
+            src="https://ca.slack-edge.com/T47CT8XPG-U03CCG02V08-3d945817b633-512"
             alt="green beans"
           />
+          <h4>Dorian Urem</h4>
           <p>
             Said is a great guy, he is friendly, hardworking, eager to learn new
             things and is willing to help others. This is my opinion of him from
             knowing him for a year now and collaborating in Microverse and
             outside of it. I would recommend him to any company because of his
             traits.
+          </p>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://lazy-coders.netlify.app/static/media/trainer10.b052c87360e3794c5dde.png"
+            alt="green beans"
+          />
+          <h4>Asim KhanAsim Khan</h4>
+          <p>
+            I have always enjoyed coding with Said Laasri. The energy and
+            dedication he brings to the table make us a formidable team in pair
+            programming and handling coding challenges. His hunger to learn more
+            and understand new concepts is a refreshing session for me as well,
+            as I get to learn more new things as well. He truly is a remarkable
+            partner and a thorough gentleman. Anyone would appreciate having him
+            on their team as he will be a very hard-working and reliable asset.
           </p>
         </SwiperSlide>
       </Swiper>

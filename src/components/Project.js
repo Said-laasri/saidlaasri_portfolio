@@ -89,13 +89,15 @@ const Project = () => {
 
   return (
     <Container id="project">
-      <h1 className="section text-center mt-4 p-2">Projects</h1>
+      <h1 className="section text-center mt-4 p-2" data-aos="fade-right">
+        Projects
+      </h1>
 
       <CardGroup className="m-4" id="tech">
         <div className="row">
           {projects.map((project, index) => (
             <div className="col-md-4" key={index}>
-              <Card className="m-3 bg-transparent">
+              <Card className="m-3 bg-transparent" data-aos="zoom-in-up">
                 <div className="image-container">
                   <Card.Img variant="top" src={project.image} />
                 </div>

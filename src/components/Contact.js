@@ -8,9 +8,9 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <Container>
-      <h1 className="section text-center mt-4 p-2">Contact Me</h1>
-      <Row className="justify-content-center">
+    <Container >
+      <h1 className="section text-center mt-4 p-2" data-aos="fade-right">Contact Me</h1>
+      <Row className="justify-content-center" data-aos="fade-up">
         <Col md={6}>
           <ListGroup className="m-5 p-4">
             <ListGroup.Item className="input-line">

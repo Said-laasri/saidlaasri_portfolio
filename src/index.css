@@ -18,6 +18,18 @@ code {
   font-weight: 600;
   padding: 2rem;
   margin: 1rem;
+  animation: typeIn 1s ease-in-out;
+}
+
+@keyframes typeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .section:hover {

@@ -1,18 +1,27 @@
-import React from "react";
+import { useEffect } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ButtonTheme from "./UI/ButtonTheme";
+import AOS from "aos";
 import "bootstrap/dist/css/bootstrap.min.css";
 import classes from "./Navigation.module.css";
 
 const Navigation = (props) => {
   const { onChangeTheme } = props;
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
   return (
     <Navbar
+      data-aos="fade-down"
       style={{ zIndex: "9999999" }}
       className={classes.nav}
       collapseOnSelect
-      expand="lg"
+      expand="sm"
       bg="dark"
       variant="dark"
     >
