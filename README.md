@@ -1,7 +1,3 @@
-<h1>On development >>>> </h1>
-
-
-
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
